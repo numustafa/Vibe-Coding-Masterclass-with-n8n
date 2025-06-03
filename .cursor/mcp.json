@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+        "task-master-ai": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "--package=task-master-ai",
+                "task-master-ai"
+            ],
+            "env": {
+                "GOOGLE_API_KEY": "api-key",
+                "GOOGLE_APPLICATION_CREDENTIALS": "D:/ai_keys/taskmaster-vertex-sa.json",
+                "OPENROUTER_API_KEY": "api-key"
+            }
+        }
+    }
+}
